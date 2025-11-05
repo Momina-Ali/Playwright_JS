@@ -10,6 +10,9 @@ export class LoginPage {
     this.welcomeText = page.locator('#nameofuser');
   }
 
+
+
+
 //define actions 
 
   async clickLogin() {
