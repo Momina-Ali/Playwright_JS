@@ -19,5 +19,11 @@ test('Upload single file.', async ({ page }) => {
   await expect(page.locator('#uploaded-files')).toContainText(fileName);
 
 
+// New just to check the difference 
+  await expect(page.locator('h4')).toHaveText('File Uploaded!')
+// verify file is displayed 
+  await expect(page.locator('#uploaded')).toContainText(fileName);
+
+
 
 })
