@@ -1,8 +1,8 @@
 import { test, expect, chromium} from '@playwright/test';
 
 test('Window Handles independently', async () => {
- const  browser = await chromium.launch()
- const contex = await browser.newContext()
+ const  browser = await chromium.launch();
+ const contex = await browser.newContext();
 
 
  const page1 = await contex.newPage()
@@ -28,8 +28,8 @@ test('Window Handles by clicking link', async ({page}) => {
 
  const newPagePromise = page.context().waitForEvent('page');
 
- const linkLocator =page.locator("//a[normalize-space()='OrangeHRM, Inc']");
- linkLocator.click();
+ const linkLocator = page.locator("//a[normalize-space()='OrangeHRM, Inc']");
+ await linkLocator.click();
 
 
  const newPage = await newPagePromise;
