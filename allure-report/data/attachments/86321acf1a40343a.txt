@@ -1,0 +1,5 @@
+Text entered successfully
+ All Text selected
+ All selected text is copied
+Now focus is moved to next tab text box
+Verified.

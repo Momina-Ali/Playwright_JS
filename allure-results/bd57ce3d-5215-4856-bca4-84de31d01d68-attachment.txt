@@ -1,0 +1,17 @@
+Setup: Navigating to DemoBlaze homepage...
+Setup Complete: Homepage loaded successfully
+📝 Running Test 2: Filter Laptops
+   📋 Found 9 laptop products:
+      1. Samsung galaxy s6
+      2. Nokia lumia 1520
+      3. Nexus 6
+      4. Samsung galaxy s7
+      5. Iphone 6 32gb
+      6. Sony xperia z5
+      7. HTC One M9
+      8. Sony vaio i5
+      9. Sony vaio i7
+
+   ✅ Test 2 Passed: Laptop category filter working correctly
+🧹 Cleanup: Test completed, performing cleanup...
+ Cleanup Complete

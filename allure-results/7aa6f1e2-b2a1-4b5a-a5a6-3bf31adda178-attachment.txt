@@ -1,0 +1,14 @@
+Setup: Navigating to DemoBlaze homepage...
+Setup Complete: Homepage loaded successfully
+📝 Running Test 2: Filter Laptops
+   📋 Found 6 laptop products:
+      1. Sony vaio i5
+      2. Sony vaio i7
+
+      3. MacBook air
+      4. Dell i7 8gb
+      5. 2017 Dell 15.6 Inch
+      6. MacBook Pro
+   ✅ Test 2 Passed: Laptop category filter working correctly
+🧹 Cleanup: Test completed, performing cleanup...
+ Cleanup Complete

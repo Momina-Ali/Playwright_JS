@@ -1,0 +1,2 @@
+initial state: column A text was 'A', column B text was 'B'
+Final state: column A text is 'B', column B text is 'A'

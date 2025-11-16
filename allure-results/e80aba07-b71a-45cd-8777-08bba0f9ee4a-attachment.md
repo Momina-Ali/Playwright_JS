@@ -1,0 +1,107 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e16]:
+  - banner [ref=e17]:
+    - generic [ref=e23]:
+      - heading "Automation Testing Practice" [level=1] [ref=e25]
+      - paragraph [ref=e27]: For Selenium, Cypress & Playwright
+  - list [ref=e34]:
+    - listitem [ref=e35]:
+      - link "Home" [ref=e36] [cursor=pointer]:
+        - /url: http://testautomationpractice.blogspot.com/
+    - listitem [ref=e37]:
+      - link "Udemy Courses" [ref=e38] [cursor=pointer]:
+        - /url: https://www.pavanonlinetrainings.com/p/udemy-courses.html
+    - listitem [ref=e39]:
+      - link "Online Trainings" [ref=e40] [cursor=pointer]:
+        - /url: https://www.pavanonlinetrainings.com/
+    - listitem [ref=e41]:
+      - link "Blog" [ref=e42] [cursor=pointer]:
+        - /url: https://www.pavantestingtools.com/
+    - listitem [ref=e43]:
+      - link "PlaywrightPractice" [ref=e44] [cursor=pointer]:
+        - /url: https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+  - generic [ref=e64]:
+    - heading "GUI Elements" [level=3] [ref=e65]:
+      - link "GUI Elements" [ref=e66] [cursor=pointer]:
+        - /url: https://testautomationpractice.blogspot.com/2018/09/automation-form.html
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]: "Name:"
+        - textbox "Enter Name" [ref=e70]
+        - generic [ref=e71]: "Email:"
+        - textbox "Enter EMail" [ref=e72]
+        - generic [ref=e73]: "Phone:"
+        - textbox "Enter Phone" [ref=e74]
+      - generic [ref=e75]:
+        - generic [ref=e76]: "Address:"
+        - textbox "Address:" [ref=e77]
+      - generic [ref=e78]:
+        - generic [ref=e79]: "Gender:"
+        - generic [ref=e80]:
+          - radio "Male" [ref=e81]
+          - generic [ref=e82]: Male
+        - generic [ref=e83]:
+          - radio "Female" [ref=e84]
+          - generic [ref=e85]: Female
+      - generic [ref=e86]:
+        - generic [ref=e87]: "Days:"
+        - generic [ref=e88]:
+          - checkbox "Sunday" [ref=e89]
+          - generic [ref=e90]: Sunday
+        - generic [ref=e91]:
+          - checkbox "Monday" [ref=e92]
+          - generic [ref=e93]: Monday
+        - generic [ref=e94]:
+          - checkbox "Tuesday" [ref=e95]
+          - generic [ref=e96]: Tuesday
+        - generic [ref=e97]:
+          - checkbox "Wednesday" [ref=e98]
+          - generic [ref=e99]: Wednesday
+        - generic [ref=e100]:
+          - checkbox "Thursday" [ref=e101]
+          - generic [ref=e102]: Thursday
+        - generic [ref=e103]:
+          - checkbox "Friday" [ref=e104]
+          - generic [ref=e105]: Friday
+        - generic [ref=e106]:
+          - checkbox "Saturday" [ref=e107]
+          - generic [ref=e108]: Saturday
+      - generic [ref=e109]:
+        - generic [ref=e110]: "Country:"
+        - combobox "Country:" [ref=e111]:
+          - option "United States" [selected]
+          - option "Canada"
+          - option "United Kingdom"
+          - option "Germany"
+          - option "France"
+          - option "Australia"
+          - option "Japan"
+          - option "China"
+          - option "Brazil"
+          - option "India"
+      - generic [ref=e112]:
+        - generic [ref=e113]: "Colors:"
+        - listbox "Colors:" [ref=e114]:
+          - option "Red" [ref=e115]
+          - option "Blue" [ref=e116]
+          - option "Green" [ref=e117]
+          - option "Yellow" [ref=e118]
+          - option "Red" [ref=e119]
+          - option "White" [ref=e120]
+          - option "Green" [ref=e121]
+      - generic [ref=e122]:
+        - generic [ref=e123]: "Sorted List:"
+        - listbox "Sorted List:" [ref=e124]:
+          - option "Cat" [ref=e125]
+          - option "Cheetah" [ref=e126]
+          - option "Deer" [ref=e127]
+          - option "Dog" [ref=e128]
+          - option "Elephant" [ref=e129]
+          - option "Fox" [ref=e130]
+          - option "Giraffe" [ref=e131]
+          - option "Lion" [ref=e132]
+          - option "Rabbit" [ref=e133]
+          - option "Zebra" [ref=e134]
+```

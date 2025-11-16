@@ -1,0 +1,6 @@
+--- Checking Frame Count ---
+Number of frames on the page (including main frame): 7
+--- Approach 1: page.frame() with URL ---
+Successfully f#username-input filled input box in frame via URL: Hello from Approach One
+--- Approach 2: page.frameLocator() with Selector ---
+Successfully filled input box in frame via frameLocator: Hello from Approach Two

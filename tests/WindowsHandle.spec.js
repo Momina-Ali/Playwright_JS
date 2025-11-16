@@ -20,7 +20,7 @@ await expect(page2).toHaveTitle('Human Resources Management Software | HRMS | Or
 
 });
 
-test.only('Window Handles by clicking link', async ({page}) => {
+test('Window Handles by clicking link', async ({page}) => {
 
 
  await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");

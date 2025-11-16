@@ -1,1 +1,47 @@
-lets see what happens
+Step 1: Install Dependencies
+
+
+text
+npm i -D @playwright/test allure-playwright
+Install Allure command line globally for report generation and viewing:
+
+text
+npm install -g allure-commandline --save-dev
+
+
+
+
+
+Step 2: Configure Playwright to Use Allure Reporter
+Modify your Playwright configuration file (playwright.config.js or .ts) to add allure-playwright as a reporter:
+
+js
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  reporter: [
+    ['line'], // console output
+    ['allure-playwright', { resultsDir: 'allure-results' }],
+  ],
+});
+
+
+Step 3: Run Playwright Tests with Allure Reporter
+Execute your tests normally with Playwright, which will generate allure result files:
+
+text
+npx playwright test
+The allure-results folder will be populated with result files after test execution.
+
+Step 4: Generate Allure HTML Report
+Generate the readable HTML report from the results:
+
+text
+allure generate allure-results --clean -o allure-report
+This creates an allure-report folder containing the HTML report files.
+
+Step 5: Open Allure Report in Browser
+Launch the generated Allure report in a browser for detailed interactive test insights:
+
+text
+allure open allure-report

@@ -3,8 +3,9 @@
     "playwright": "^1.55.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.55.1",
-    "@types/node": "^24.6.2"
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.6.2",
+    "allure-playwright": "^3.4.2"
   },
   "scripts": {}
 }
